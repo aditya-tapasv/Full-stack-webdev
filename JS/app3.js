@@ -1,0 +1,10 @@
+// let msg ="help";
+// console.log(msg.trim().toUpperCase());
+// let name = "ApnaCollege";
+// console.log(name.slice(4,9));
+// console.log(name.indexof("na"));
+// console.log(name.replace("Apna","Our"));
+let arr = ["january","july","march","august"];
+arr.shift();
+arr[1] ="june";
+console.log(arr);

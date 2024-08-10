@@ -1,0 +1,32 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    
+}
+h1 , h6{
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 120px;
+}
+#box{
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+}
+.btn1{
+    padding: 8px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 8px;
+    text-decoration: none;
+}

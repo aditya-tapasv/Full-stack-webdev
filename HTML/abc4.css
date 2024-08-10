@@ -1,0 +1,42 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius:10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+ .s{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius:10px;
+    text-align: center;
+    font-size: 50px;
+ }
+ #a{
+    text-align: center;
+ }
+ #container2{
+    height: 50px;
+    width: 900px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: pink;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    align-content: center;
+ }
+
+#same{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 50px;
+}

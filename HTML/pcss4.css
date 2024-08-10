@@ -1,0 +1,29 @@
+#card1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    transition: 2s;
+    background-image: url("men.jpg.jpg");
+    background-size: cover;
+}
+#card2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    transition: 2s;
+    background-image: url("women.jpg.jpg");
+    background-size: cover;
+}
+
+#card1:hover{
+    box-shadow: 2px 2px 8px black;
+    border-radius: 50%;
+}
+#card2:hover{
+    box-shadow: 2px 2px 8px black;
+    border-radius: 50%;
+}

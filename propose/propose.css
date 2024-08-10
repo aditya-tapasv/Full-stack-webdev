@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Teko", sans-serif;
+    background-color: crimson;
+    overflow: auto;
+    background: url("rose.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#but{
+    height: 70px;
+    width: 150px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: 1px solid red;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: blue;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+    display: inline-block;
+
+}
+#img{
+    height: 50%;
+    width: 50%;
+    image-orientation: flip;
+}
+#but:hover{
+    background-color: red;
+}
+#box{
+    height: 60px;
+    width:  60px;
+    background-color: yellowgreen;
+}
+#box:hover{
+    animation-name: please;
+    animation-duration: 20s;
+    animation-timing-function: ease-in;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    @keyframes please {
+        0% from{transform:rotate(0deg);}
+        100% to{transform:rotate(180deg);}
+    }
+}
+
+#butno{
+    height: 70px;
+    width: 150px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: blue;
+    margin: 10px;
+    box-shadow: 5px 5px 10px black;
+    display: inline-block; 
+}
+#butno:hover{
+    background-color: red;
+    opacity: 0;
+    @keyframes no {
+        from{transform:translate(0px,0px)}
+        to{transform:translate(5px,5px)}
+    }
+}

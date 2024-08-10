@@ -1,0 +1,35 @@
+*{
+    background-color: yellow;
+    background: url("yesrose.jpg");
+    height: 100vh;
+    background-size:cover;
+}
+#but{
+    height: 60px;
+    width: 130px;
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: 1px solid yellow;
+    border-radius: 50% 20% / 10% 40%;
+    background-color: yellow;
+    margin: 10px;
+    box-shadow: 5px 5px 10px yellow;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#but:hover{
+    background-color: red;
+}
+#h{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: silver;
+}
+h1{
+    color: chartreuse;
+}
+p{
+    color: bisque;
+}

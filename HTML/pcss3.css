@@ -1,0 +1,22 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border: 5px double black;
+}
+
+.hello{
+    height:50px;
+    width: 50px;
+    border:2px solid black ;
+    margin: 10px;
+    border-radius: 100px;
+}
+#inner1{
+    background-color:  red;
+}
+#inner2{
+    background-color:  yellow;
+}
+#inner3{
+    background-color: green;
+}

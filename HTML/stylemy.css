@@ -1,0 +1,21 @@
+h2{
+    color: brown;
+}
+span{
+    color: brown;
+}
+.card{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+img{
+    height: 26%;
+    width: 100%;
+    padding: 2px;
+    border-radius: 10px;
+}

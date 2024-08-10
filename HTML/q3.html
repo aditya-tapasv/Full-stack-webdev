@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="\action">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <label>Rate us in any methods:</label>
+        <hr>
+        <input type="radio" name="rating" id="rate"  value="1"/>
+        <label for="rate">1</label>
+        <input type="radio" name="rating" id="rate2"  value="2"/>
+        <label for="rate2">2</label>
+        <input type="radio" name="rating" id="rate3" value="3" />
+        <label for="rate3">3</label>
+        <input type="radio" name="rating" id="rate4" value="4" />
+        <label for="rate4">4</label>
+        <input type="radio" name="rating" id="rate5" value="5" />
+        <label for="rate5">5</label>
+         <hr>
+         <div>
+            <select name="rating" id="rating">
+                <option value="1outof5">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+         </div>  
+         <hr>
+         <div>
+            <input type="range" name="Rating" id="Rate" min="0" max="5" step="1">
+         </div>
+         <button type="submit">Send your message!</button>
+    </form>
+</body>
+</html>
