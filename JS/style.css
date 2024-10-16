@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+button{
+    margin-bottom: 50px;
+}
+.box{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin: auto;
+    padding-top: 10px;
+}
